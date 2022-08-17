@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title>Contactenos</title>
+</head>
+<body class="grid">
+    <header class="header">
+        <img src="../images/logoDelfos.png" alt="logo negocio" width="100px" height="100px"/>
+        <h1 class="header__nombreNegocio">
+            Merceria DELFOS
+        </h1>
+        <nav class="header__menuNav">
+            <!-- lista no ordenada -->
+        <ul>
+            <li>
+                <a href="../index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="../pages/quienesSomos.html">Quienes Somos</a>
+            </li>
+            <li>
+                <a href="../pages/productos.html">Productos</a>
+            </li>
+            <li>
+                <a href="../pages/contactenos.html">Contactenos</a>
+            </li>
+            <li>
+                <a href="../pages/galeria.html">Galeria</a>
+            </li>
+            </li>
+            <li>
+                <a href="https://www.hilosvahe.com" target="_blank">Proveedores</a>
+            </li>
+        </ul>
+        </nav>
+    </header>
+
+    <main class="principal">
+    <h2 class="form">
+        Formulario de Contacto
+    </h2>
+    <!--Formulario -->
+    <form class="formularioContacto">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <label for="nombre">Nombre</label>
+            <br />
+            <input id="nombre" placeholder="Ingrese su Nombre">
+            <br />
+            <label for="apellido">Apellido</label>
+            <br />
+            <input id="apellido" placeholder="Ingrese su Apellido">
+            <br />
+            <label for="DNI">Documento</label>
+            <br />
+            <input id="DNI" type="number" placeholder="Ingrese su DNI">
+            <br />
+            <label>Seleccione su Pais</label>
+            <br />
+            <select>
+                <option>Argentina</option>
+                <option>Uruguay</option>
+                <option>Chile</option>
+                <option>Bolivia</option>
+                <option>Brasil</option>
+                <option>Otro</option>
+            </select>
+            <br />
+            <label for="telefono">Telefono</label>
+            <br />
+            <input id="telefono" type="tel" placeholder="Ingrese su Telefono">
+            <br />
+        </fieldset>  
+        <br/>
+        <fieldset>
+            <legend>Adicional</legend>
+            <label for="comentarios">Comentarios</label>
+            <br />
+            <textarea id="comentarios" placeholder="Deje sus Comentarios"></textarea>
+        </fieldset>
+        <br />
+        <label for="tyc">Acepto los Terminos y Condiciones</label>
+        <input type="checkbox">
+        <br />
+        <label for="mailing">Desea Recibir notificaciones por mail</label>
+        <input type="checkbox" checked>
+        <br />
+        <label for="conocido"> Como nos Conociste?</label>
+        <br />
+        <input name="conocer" type="radio">
+        <span>Amigo/a</span>
+        <input name="conocer" type="radio">
+        <span>Redes</span>
+        <input name="conocer" type="radio">
+        <span>Folleto</span>
+        <br />
+        <br/>
+        <input type="submit" value="Aceptar">
+        <input type="reset" value="Cancelar">
+    </form>
+<br>
+    </main>
+    <footer>
+        <footer class="pieDePagina">
+        <nav class="footer__menuPieDePagina">
+            <!-- lista no ordenada -->
+            <ul>
+                <li>
+                    <a href="https://wwww.facebook.com/merceria.delfos.79" target="_blank"><img src="../images/facebook-brands.svg" alt="logoFacebook"></a>     
+                </li>
+                <li>
+                    <a href="https://instagram.com/merceriadelfos?igshid=YmMyMTA2M2Y=" target="_blank"><img src="../images/instagram-brands.svg" alt="logoInstagram"></a>
+                </li>
+                <li>
+                    <a href="https://api.whatsapp.com/send?phone=541161079577&text=Hola!%Necesito%hacer%una%consulta" target="_blank"><img src="../images/whatsapp-brands.svg" alt="logoWhatsapp"></a>
+                </li>
+                <li>
+                    <a href="./index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="./pages/quienesSomos.html">Quienes Somos</a>
+                </li>
+                <li>
+                    <a href="./pages/productos.html">Productos</a>
+                </li>
+                <li>
+                    <a href="./pages/contactenos.html">Contactenos</a>
+                </li>
+                <li>
+                    <a href="./pages/galeria.html">Galeria</a>
+                </li>
+                <li>
+                    <a href="https://www.hilosvahe.com" target="_blank">Proveedores</a>
+                </li>
+            </ul>
+            </nav>
+    </footer>
+    
+</body>
+</html>
