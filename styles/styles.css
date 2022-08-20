@@ -109,8 +109,11 @@ p {
     grid-area: main;
 }
 
-.footer__menuPieDePagina{
+.footer__pieDePagina{
     grid-area: footer;
+}
+
+.footer__menuPieDePagina{
     display: flex;
     align-items: stretch;
     justify-content: space-between;
