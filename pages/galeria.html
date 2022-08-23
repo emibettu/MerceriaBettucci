@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/styles.css">
     <title>Galeria</title>
 </head>
@@ -44,12 +45,20 @@
 
     <h2 class="imagenes">Galeria de Imagenes</h2>
     <section class="fotos">
-    <img src="../images/disenoinfografico.jpg" alt="logos de diseño infografico"/>
-    <br>
-    <img src="../images/knitting.jpg" alt="rollos de ovillos y herramientas para tejer"/>
-    <br>
-    <a href="https://www.youtube.com/watch?v=tB6MapjfCvU" target="_blank" >
-        <img src="../images/hilos.jpg" alt="hilos de costura"/>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../images/disenoinfografico.jpg" class="d-block w-100" alt="logos de disenio infografico">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/knitting.jpg" class="d-block w-100" alt="rollos de ovillos y herramientas para tejer">
+              </div>
+            </div>
+          </div>
+        <div class="video">
+            <a href="https://www.youtube.com/watch?v=tB6MapjfCvU" target="_blank" >
+        <img src="../images/hilos.jpg" alt="hilos de costura"/> -->
+        </div>
     </section>
 
     </main>
@@ -88,6 +97,7 @@
                 </ul>
                 </nav>
     </footer>
-
+<!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
