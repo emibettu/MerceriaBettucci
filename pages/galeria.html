@@ -9,35 +9,37 @@
     <link rel="stylesheet" href="../styles/styles.css">
     <title>Galeria</title>
 </head>
-<body class="grid">
-    <header class="header">
-        <img src="../images/logoDelfos.png" alt="logo negocio" width="100px" height="100px"/>
-        <h1 class="header__nombreNegocio">
+<body class="container-fluid">
+    <header class="row header">
+        <!-- <img class="logonegocio col-2"src="../images/logoDelfos.png" alt="logo negocio"/> -->
+        <h1 class="header__nombreNegocio col-12">
             Merceria DELFOS
         </h1>
-        <nav class="header__menuNav">
-            <!-- lista no ordenada -->
-        <ul>
-            <li>
-                <a href="../index.html">Inicio</a>
-            </li>
-            <li>
-                <a href="../pages/quienesSomos.html">Quienes Somos</a>
-            </li>
-            <li>
-                <a href="../pages/productos.html">Productos</a>
-            </li>
-            <li>
-                <a href="../pages/contactenos.html">Contactenos</a>
-            </li>
-            <li>
-                <a href="../pages/galeria.html">Galeria</a>
-            </li>
-            </li>
-            <li>
-                <a href="https://www.hilosvahe.com" target="_blank">Proveedores</a>
-            </li>
-        </ul>
+        <nav class="navbar navbar-expand-lg me-auto col-12 estilo-nav">
+            <div>
+                <img class="logonegocio" src="../images/logoDelfos.png" alt="logo negocio"/>
+            </div>
+            <div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/quienesSomos.html">Quienes somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/contactenos.html">Contactenos</a>
+                  </li> 
+                </ul>
+                </div>
+            </div>
         </nav>
     </header>
 

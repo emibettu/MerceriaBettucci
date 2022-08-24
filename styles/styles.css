@@ -7,6 +7,17 @@ body{
     background-position: center;
 }
 
+.estilo-nav{
+    /* background-color: rgb(248, 240, 240); */
+    color: rgba(248, 240, 240);
+    font-weight: bold;
+}
+
+.estilo-nav__menuNav ul li a: :hover{
+    color: rgb(248, 240, 240);
+    font-size: 18px; 
+}
+
 .grid{
     display: grid;
     grid-template-areas: 
@@ -18,11 +29,18 @@ body{
 }
 
 .header{
-    grid-area: header;
+    /* grid-area: header; */
     display:flex;
     align-items: center;
     justify-content:space-between;
     padding: 5px;
+}
+
+.logonegocio{
+    display: flex;
+    justify-content:left;
+    width: 120px;
+    height: 100px;
 }
 
 .header__nombreNegocio{
