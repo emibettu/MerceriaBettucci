@@ -1,15 +1,15 @@
 /* responsive mmobile */
-@import "./partials/reset", "./partials/body" ,"./partials/header", "./partials/navbar",
+@import "./partials/reset", "./partials/body" ,"./partials/header", "./partials/navbar";
 
-.grid{
-    display: grid;
-    grid-template-areas: 
-    "header"
-    "main"
-    "footer";
-    grid-template-rows: 15% 80% 5%;
-    grid-template-columns: auto;
-}
+// .grid{
+//     display: grid;
+//     grid-template-areas: 
+//     "header"
+//     "main"
+//     "footer";
+//     grid-template-rows: 15% 80% 5%;
+//     grid-template-columns: auto;
+// }
 
 
 .preLeyenda{
