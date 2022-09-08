@@ -1,5 +1,5 @@
 .estilo-nav{
-    color: $estilo-navColor;
+    color: map-get($map: $estilos, $key:estilo-navColor );
     font-weight: bold;
     .logonegocio{
         display: flex;

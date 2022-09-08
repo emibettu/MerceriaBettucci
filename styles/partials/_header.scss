@@ -30,7 +30,7 @@
         justify-content: left;
         color: $headerColor;
         font-weight: bolder;
-        font-family: $primaryFont;
+        font-family: map-get($map: $estilos, $key: primaryFont);
         text-align: left;
     }
 }
